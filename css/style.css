@@ -2950,6 +2950,10 @@ h2, h3 {
   width: 16px;
 }
 
+.contact-list .fa-at {
+  width: auto;
+}
+
 .contact-list li {
   margin-bottom: 6px;
 }
@@ -3015,6 +3019,12 @@ h2, h3 {
 @media (max-width: 991px) {
   .sidebar {
     margin-bottom: 40px;
+  }
+  .information-box [class^="col"] {
+    margin-bottom: 32px;
+  }
+  .information-box [class^="col"]:last-child {
+    margin-bottom: 0;
   }
 }
 
