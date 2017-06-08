@@ -3020,10 +3020,10 @@ h2, h3 {
   .sidebar {
     margin-bottom: 40px;
   }
-  .information-box [class^="col"] {
+  .information-box [class^="col-md-4"] {
     margin-bottom: 32px;
   }
-  .information-box [class^="col"]:last-child {
+  .information-box [class^="col-md-4"]:last-child {
     margin-bottom: 0;
   }
 }
