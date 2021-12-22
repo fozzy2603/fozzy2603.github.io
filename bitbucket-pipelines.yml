@@ -1,0 +1,48 @@
+# This is an example Starter pipeline configuration
+# Use a skeleton to build, test and deploy using manual and parallel steps
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+
+#  git pull --allow-unrelated-histories
+#  git pull --rebase origin master
+#  git push origin HEAD:master
+
+#image: atlassian/default-image:2
+#pipelines:
+#  branches:
+#    master:
+#      - step:
+#          script:
+#            - git remote add sync git@github.com:fozzy2603/test.git
+#            - git checkout dev
+#            - git pull
+#            - git push --force sync dev
+
+image: node
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Build Project
+          caches:
+            - node
+          script:
+            - npm install && npm run prod
+          artifacts:
+            - dist/**
+
+      - step:
+          name: Work with Git
+          script:
+            - git remote add sync git@github.com:fozzy2603/fozzy2603.github.io.git
+            - git pull --allow-unrelated-histories
+            - git rm -r --cached .
+            - git add dist/ -f
+            - git mv dist/* ./
+            - git clean -f -d
+            - touch .nojekyll
+            - git add .nojekyll
+            - git commit -m "update CV"
+            - git show-ref
+            - git push -u --force sync HEAD:master

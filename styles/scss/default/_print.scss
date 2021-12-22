@@ -1,0 +1,25 @@
+@media print {
+    *,
+    *:before,
+    *:after {
+        color: #000 !important; // Black prints faster: h5bp.com/s
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: ' (' attr(href) ')';
+    }
+    .page-wrapper {
+        width: 940px;
+    }
+    .hidden-print {
+        display: none;
+    }
+}

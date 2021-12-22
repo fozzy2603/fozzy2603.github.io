@@ -1,0 +1,43 @@
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    user-select: none;
+    & + & {
+        margin-left: 10px;
+    }
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
+    background-repeat: repeat-x;
+    border-color: #ccc;
+    svg {
+        width: 12px;
+        margin-right: 4px;
+        fill: #333;
+    }
+    span {
+        vertical-align: middle;
+    }
+    &:hover {
+        color: #333;
+        background-color: #e6e6e6;
+        border-color: #adadad;
+    }
+}
