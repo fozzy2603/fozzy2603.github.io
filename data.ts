@@ -36,6 +36,7 @@ export const data = {
             trainings: 'Trainings',
             qualities: 'Personal qualities',
         },
+        summary: "Experienced React Frontend Developer with over 10 years of expertise in building high-performance, responsive web applications. Proficient in React, Next.js, and modern JavaScript frameworks. Skilled at optimizing UI/UX, improving application performance, and collaborating within international, cross-functional teams. Passionate about creating seamless user experiences and clean, maintainable code.",
         qualities: 'Responsible, persistent, friendly, honest, positive attitude, communicative.',
         workExperience: [
             {
@@ -112,6 +113,7 @@ export const data = {
             trainings: 'Курсы',
             qualities: 'Персональные качества',
         },
+        summary: 'Опытный React Frontend Developer с более чем 10-летним опытом разработки высокопроизводительных, адаптивных веб-приложений. Владею навыками работы с React, Next.js и современными JavaScript-фреймворками. Специализируюсь на оптимизации UI/UX, повышении производительности приложений и эффективном взаимодействии в международных кросс-функциональных командах. Увлечен созданием удобного интерфеса взаимодействия с пользователем и чистого, легко поддерживаемого кода.',
         qualities:
             'Ответственный, настойчив, быстро обучаем, дружелюбный, честный, позитивно настроен, коммуникабельный.',
         workExperience: [
@@ -189,6 +191,7 @@ export const data = {
             trainings: 'Курси',
             qualities: 'Особисті якості',
         },
+        summary: 'Досвідчений React Frontend Developer із понад 10-річним досвідом розробки високопродуктивних, адаптивних веб-додатків. Володію навичками роботи з React, Next.js та сучасними JavaScript-фреймворками. Спеціалізуюся на оптимізації UI/UX, підвищенні продуктивності додатків і ефективній співпраці в міжнародних міжфункціональних командах. Захоплююсь створенням бездоганної взаємодії з користувачем і чистим кодом, який зручно підтримувати.',
         qualities:
             'Відповідальний, наполегливий, швидко навчаюсь, дружелюбний, чесний, позитивний, комунікабельний.',
         workExperience: [
