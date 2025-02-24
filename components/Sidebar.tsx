@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaLinkedin, FaPhoneSquareAlt, FaGlobe, FaPrint } from 'react-icons/fa';
+import {languages, languagesProps} from "../pages";
 
 type SidebarProps = {
     data: {
@@ -7,13 +8,12 @@ type SidebarProps = {
         position: string;
         city: string;
     };
-    changeLanguage: (e: 'en' | 'ru') => void;
+    changeLanguage: (e: languagesProps) => void;
     lang: string;
 };
 
 export const Sidebar: React.FC<SidebarProps> = ({ data, changeLanguage, lang }) => {
     const { name, position, city } = data;
-    const language = lang === 'en' ? 'ru' : 'en';
     return (
         <>
             <img src="./fozzy.jpg" alt={name} width="274" className={'photo'} />
@@ -33,9 +33,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ data, changeLanguage, lang }) 
                         <FaPhoneSquareAlt /> +38 (097) 910-82-86
                     </li>
                 </ul>
-                <button onClick={() => changeLanguage(language)} className={'btn btn-default hidden-print'}>
-                    <FaGlobe /> <span>{language.toUpperCase()}</span>
-                </button>
+                {languages.map(i => (
+                    <button key={`lang-${i}`} onClick={() => changeLanguage(i)} className={`btn btn-default hidden-print ${i === lang && 'btn-active'}`}>
+                        {i === lang && <FaGlobe/>}<span>{i.toUpperCase()}</span>
+                    </button>
+                ))}
                 <button className="btn btn-default hidden-print" onClick={() => window.print()}>
                     <FaPrint /> <span>Print</span>
                 </button>

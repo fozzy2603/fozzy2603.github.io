@@ -25,7 +25,7 @@ export const data = {
         sidebar: {
             name: 'Oleksandr Chernetskyi',
             position: 'React Frontend Developer, HTML/CSS Coder',
-            city: 'Kyiv',
+            city: 'World (Remote)',
         },
         titles: {
             workExperience: 'Work experience',
@@ -101,7 +101,7 @@ export const data = {
         sidebar: {
             name: 'Александр Чернецкий',
             position: 'React Frontend Developer, HTML/CSS Coder',
-            city: 'Киев',
+            city: 'World (Remote)',
         },
         titles: {
             workExperience: 'Опыт работы',
@@ -174,4 +174,81 @@ export const data = {
             ],
         },
     },
+    ua: {
+        sidebar: {
+            name: 'Олександр Чернецький',
+            position: 'React Frontend Developer, HTML/CSS Coder',
+            city: 'World (Remote)',
+        },
+        titles: {
+            workExperience: 'Досвід роботи',
+            skills: 'Навички',
+            tools: 'Інструменти',
+            languages: 'Мови',
+            education: 'Освіта',
+            trainings: 'Курси',
+            qualities: 'Особисті якості',
+        },
+        qualities:
+            'Відповідальний, наполегливий, швидко навчаюсь, дружелюбний, чесний, позитивний, комунікабельний.',
+        workExperience: [
+            {
+                date: 'Серпень 2020 - Сьогодні',
+                company: 'Mindnow',
+                position: 'React Frontend Developer',
+            },
+            {
+                date: 'Травень 2018 - Липень 2020',
+                company: 'Es.bet / KitCode / Gorilla (Київ)',
+                position: 'React Frontend Developer',
+            },
+            {
+                date: 'Жовтень 2015 - Травень 2018',
+                company: 'Dreamscape Networks / Siteplus (Київ)',
+                position: 'Frontend Developer',
+            },
+            {
+                date: 'Квітень 2014 - Вересень 2015',
+                company: 'Rexsoft (Хмельницький)',
+                position: 'Frontend Developer',
+            },
+            {
+                date: 'Квітень 2011 - Квітень 2014',
+                company: 'Freelance',
+                position: 'Frontend Developer',
+            },
+            {
+                date: 'Квітень 2010 - Лютий 2011',
+                company: 'WebPC (Харків)',
+                position: 'Frontend Developer',
+            },
+            {
+                date: 'Жовтень 2009 - Лютий 2010',
+                company: 'W3 Ukraine (Харків)',
+                position: 'HTML/CSS Coder',
+            },
+        ],
+        ability: {
+            ...ability,
+            languages: ['Українська', 'Російська', 'Англійська'],
+        },
+        education: {
+            university: {
+                date: '2004 - 2009',
+                name: 'Харківський Національний Університет Радіоелектроніки',
+                department: 'Інтелектуальні системи прийняття рішень',
+                branch: 'Спеціаліст з автоматизованих систем управління виробництвом',
+            },
+            trainings: [
+                {
+                    date: 'Жовтень 2008 - Грудень 2008',
+                    info: 'Validio Seo Training',
+                },
+                {
+                    date: 'Вересень 2009 - Грудень 2009',
+                    info: 'W3 Ukraine - Курси HTML/CSS',
+                },
+            ],
+        },
+    }
 };

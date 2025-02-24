@@ -4,8 +4,11 @@ import Head from 'next/head';
 import { data } from '../data';
 import { Education, Sidebar, Skills, WorkExperience, PersonalQualities } from '../components';
 
+export const languages = ['en', 'ua', 'ru'] as const;
+export type languagesProps = typeof languages[number];
+
 const Home: NextPage = () => {
-    const [lang, setLang] = useState<'en' | 'ru'>('en');
+    const [lang, setLang] = useState<languagesProps>('en');
     const { sidebar, workExperience, ability, education, qualities, titles } = data[lang];
 
     return (
