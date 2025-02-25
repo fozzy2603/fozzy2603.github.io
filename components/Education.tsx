@@ -19,6 +19,7 @@ type EducationProps = {
 
 export const Education: React.FC<EducationProps> = ({ title, lang, data }) => {
     const { university, trainings } = data;
+    const isLarge = lang === 'ru' || lang === 'ua';
     return (
         <div className="information-box education">
             <h2>{title}:</h2>
@@ -33,7 +34,7 @@ export const Education: React.FC<EducationProps> = ({ title, lang, data }) => {
             <h3>Trainings:</h3>
             {trainings.map(({ date, info }, index) => (
                 <div className="row" key={`item-${index}`}>
-                    <span className={`date ${lang === 'ru' && 'is-ru'}`}>{date}</span>
+                    <span className={`date ${isLarge ? 'is-ru' : ''}`}>{date}</span>
                     <p className="company-info">{info}</p>
                 </div>
             ))}
