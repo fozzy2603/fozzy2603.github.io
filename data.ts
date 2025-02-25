@@ -24,8 +24,8 @@ export const data = {
     en: {
         sidebar: {
             name: 'Oleksandr Chernetskyi',
-            position: 'React Frontend Developer, HTML/CSS Coder',
-            city: 'World (Remote)',
+            position: 'React Frontend Developer',
+            city: 'World',
         },
         titles: {
             workExperience: 'Work experience',
@@ -48,31 +48,65 @@ export const data = {
                 date: '2018 May. - 2020 Jul.',
                 company: 'Es.bet / KitCode / Gorilla (Kyiv)',
                 position: 'React Frontend Developer',
+                details: [
+                    'Developed and maintained scalable React applications for gaming platforms.',
+                    'Integrated REST APIs and improved data handling with MobX.',
+                    'Enhanced user experience by implementing responsive design solutions.',
+                    'Worked closely with the design and backend teams to ensure smooth feature integration.',
+                    'Optimized application performance and implemented new features to improve user engagement.'
+                ]
             },
             {
                 date: '2015 Oct. - 2018 May.',
                 company: 'Dreamscape Networks / Siteplus (Kyiv)',
                 position: 'Frontend Developer',
+                details: [
+                    'Worked on an innovative startup focused on creating a flexible website builder.',
+                    'Implemented creative solutions to enhance platform functionality and user experience.',
+                    'Introduced new ideas to improve platform features and usability.',
+                    'Designed and built different website templates and mockups for various purposes.',
+                    'Worked closely with designers to ensure pixel-perfect UI implementation'
+                ]
             },
             {
                 date: '2014 Apr. - 2015 Sep.',
                 company: 'Rexsoft (Khmelnitsky)',
                 position: 'Frontend Developer',
+                details: [
+                    'Worked on various web projects, developing adaptive layouts and integrating diverse plugins.',
+                    'Utilized JavaScript and jQuery to implement interactive features and enhance user experiences.',
+                    'Collaborated with designers and backend developers to ensure seamless integration of functionality and design.'
+                ]
             },
             {
                 date: '2011 Apr. - 2014 Apr.',
                 company: 'Freelance',
                 position: 'Frontend Developer',
+                details: [
+                    'Delivered custom frontend solutions for various clients.'
+                ]
             },
             {
                 date: '2010 Apr. - 2011 Feb.',
                 company: 'WebPC (Kharkiv)',
                 position: 'Frontend Developer',
+                details: [
+                    'Developed responsive web pages using HTML/CSS and JavaScript.',
+                    'Actively worked with CMS-based websites using OpenCart, Drupal, PrestaShop, ModX, etc.',
+                    'Managed projects by interacting directly with clients to gather requirements and provide customized solutions.',
+                    'Coordinated project timelines and ensured client requirements were met efficiently.',
+                    'Resolved client issues and provided ongoing technical support throughout the project lifecycle.'
+                ]
             },
             {
                 date: '2009 Oct. - 2010 Feb.',
                 company: 'W3 Ukraine (Kharkiv)',
                 position: 'HTML/CSS Coder',
+                details: [
+                    'Specialized in creating cross-browser compatible email templates and web pages.',
+                    'Gained foundational experience in HTML/CSS best practices and responsive design.',
+                    'Collaborated with a team of developers to refine coding standards and improve project delivery timelines.'
+                ]
             },
         ],
         ability: {
