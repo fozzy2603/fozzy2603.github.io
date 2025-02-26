@@ -43,6 +43,17 @@ export const data = {
                 date: '2020 Aug. - Present',
                 company: 'Mindnow',
                 position: 'React Frontend Developer',
+                details: [
+                    'Worked on several projects using React and Next.js, delivering high-quality frontend solutions.',
+                    'Led  the frontend development of an AI-based resume generation startup, focusing on usability and performance.',
+                    'Took an active role in shaping the project’s direction by suggesting improvements and new features.',
+                    'Provided technical leadership and contributed to key architectural decisions.',
+                    'Optimized application performance and ensured high-quality, maintainable code.',
+                    'Actively collaborated with designers and backend developers to refine user experience and functionality.',
+                    'Implemented server-side rendering (SSR) using Next.js, enhancing page load speed and SEO.',
+                    'Collaborated with an international team of 10 developers to ensure high-quality, on-time project deliveries.',
+                    'Led the integration of responsive design principles across various projects'
+                ]
             },
             {
                 date: '2018 May. - 2020 Jul.',
@@ -135,8 +146,8 @@ export const data = {
     ru: {
         sidebar: {
             name: 'Александр Чернецкий',
-            position: 'React Frontend Developer, HTML/CSS Coder',
-            city: 'World (Remote)',
+            position: 'React Frontend Developer',
+            city: 'World',
         },
         titles: {
             workExperience: 'Опыт работы',
@@ -213,8 +224,8 @@ export const data = {
     ua: {
         sidebar: {
             name: 'Олександр Чернецький',
-            position: 'React Frontend Developer, HTML/CSS Coder',
-            city: 'World (Remote)',
+            position: 'React Frontend Developer',
+            city: 'World',
         },
         titles: {
             workExperience: 'Досвід роботи',
