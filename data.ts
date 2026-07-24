@@ -1,9 +1,9 @@
 const ability = {
     skills: [
         'HTML5 / CSS3',
-        'JavaScript / jQuery',
-        'React / NextJS / MobX',
-        'Bootstrap',
+        'JavaScript / TypeScript / jQuery',
+        'React / NextJS / MobX / Zustand / TanStack Query',
+        'Bootstrap / Tailwind',
         'Semantic Markup',
         'Email Templates',
         'Responsive WebDesign',
