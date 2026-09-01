@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaMapMarkerAlt, FaLinkedin, FaPhoneSquareAlt, FaGlobe, FaPrint, FaMailBulk, FaMailchimp } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaLinkedin, FaPhoneSquareAlt, FaGlobe, FaPrint, FaMailBulk } from 'react-icons/fa';
 import {languages, languagesProps} from "../pages";
 
 type SidebarProps = {

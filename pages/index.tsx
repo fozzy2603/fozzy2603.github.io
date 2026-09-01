@@ -28,7 +28,7 @@ const Home: NextPage = () => {
                         titles={{ skills: titles.skills, tools: titles.tools, languages: titles.languages }}
                         data={ability}
                     />
-                    <AdditionalInfo title={titles.personalProjects} data={personalProject} lang={lang} />
+                    <AdditionalInfo title={titles.personalProjects} data={personalProject} />
                     <Education title={titles.education} data={education} lang={lang} />
                     <PersonalQualities title={titles.qualities} data={qualities} />
                 </div>
