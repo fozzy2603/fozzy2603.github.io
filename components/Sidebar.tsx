@@ -34,7 +34,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ data, changeLanguage, lang }) 
                         <FaPhoneSquareAlt /> +38 (097) 910-82-86
                     </li>
                     <li>
-                        <FaMailBulk /> <a href={`mailto:${email}`}>{email}</a>
+                        <FaMailBulk /> <a href={`mailto:${email}`} className={'skipHref'}>{email}</a>
                     </li>
                 </ul>
                 <div className='controls'>
