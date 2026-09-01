@@ -4,3 +4,4 @@ export * from './Skills';
 export * from './Education';
 export * from './PersonalQualities';
 export * from './Summary'
+export * from './AdditionalInfo'

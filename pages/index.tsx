@@ -2,7 +2,7 @@ import { useState } from 'react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { data } from '../data';
-import { Education, Sidebar, Skills, WorkExperience, PersonalQualities, Summary } from '../components';
+import { Education, Sidebar, Skills, WorkExperience, PersonalQualities, Summary, AdditionalInfo } from '../components';
 
 
 export const languages = ['en', 'ua', 'ru'] as const;
@@ -10,7 +10,7 @@ export type languagesProps = typeof languages[number];
 
 const Home: NextPage = () => {
     const [lang, setLang] = useState<languagesProps>('en');
-    const { sidebar, workExperience, ability, education, qualities, titles } = data[lang];
+    const { sidebar, workExperience, ability, education, qualities, titles, personalProject } = data[lang];
 
     return (
         <div className="container">
@@ -28,6 +28,7 @@ const Home: NextPage = () => {
                         titles={{ skills: titles.skills, tools: titles.tools, languages: titles.languages }}
                         data={ability}
                     />
+                    <AdditionalInfo title={titles.personalProjects} data={personalProject} lang={lang} />
                     <Education title={titles.education} data={education} lang={lang} />
                     <PersonalQualities title={titles.qualities} data={qualities} />
                 </div>

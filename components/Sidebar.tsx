@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaMapMarkerAlt, FaLinkedin, FaPhoneSquareAlt, FaGlobe, FaPrint } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaLinkedin, FaPhoneSquareAlt, FaGlobe, FaPrint, FaMailBulk, FaMailchimp } from 'react-icons/fa';
 import {languages, languagesProps} from "../pages";
 
 type SidebarProps = {
@@ -14,6 +14,7 @@ type SidebarProps = {
 
 export const Sidebar: React.FC<SidebarProps> = ({ data, changeLanguage, lang }) => {
     const { name, position, city } = data;
+    const email = ['sashafozzy', 'gmail.com'].join('@');
     return (
         <>
             <img src="./fozzy.jpg" alt={name} width="274" className={'photo'} />
@@ -31,6 +32,9 @@ export const Sidebar: React.FC<SidebarProps> = ({ data, changeLanguage, lang }) 
                     </li>
                     <li>
                         <FaPhoneSquareAlt /> +38 (097) 910-82-86
+                    </li>
+                    <li>
+                        <FaMailBulk /> <a href={`mailto:${email}`}>{email}</a>
                     </li>
                 </ul>
                 <div className='controls'>
