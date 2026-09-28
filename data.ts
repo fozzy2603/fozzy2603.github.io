@@ -1,23 +1,23 @@
 const ability = {
     skills: [
-        'HTML5 / CSS3',
-        'JavaScript / TypeScript / jQuery',
-        'React / NextJS / MobX / Zustand / TanStack Query',
-        'Bootstrap / Tailwind',
-        'Semantic Markup',
-        'Email Templates',
-        'Responsive WebDesign',
-        'CMS: PrestaShop, Opencart, Drupal, Ucoz ...',
-        'Node.js / Express / MongoDB / JWT (personal project)',
+        'JavaScript, TypeScript, jQuery',
+        'React.js, Next.js, MobX, Zustand, TanStack Query, Redux, React Router',
+        'HTML5, CSS3',
+        'SASS, SCSS, CSS Modules',
+        'Bootstrap, Tailwind CSS',
+        'SEO, Semantic Markup, Responsive Design, Performance Optimization',
+        'REST API, API Integration, Component Design, Reusable Components',
+        'Node.js, Express, MongoDB, JWT (personal project)',
+        'Cypress, Playwright',
+        'Agile, Scrum, Code Review, Mentoring'
     ],
     tools: [
-        'Adobe Photoshop',
-        'Figma / Sketch / Zeplin',
-        'PixelPerfect',
-        'Grunt / Gulp / Webpack',
-        'Webstorm / VS Code',
-        'Sass / Less',
-        'Git',
+        'Figma, Adobe Photoshop',
+        'Codex AI, Cursor, Claude Code, Antigravity',
+        'Webstorm, VS Code',
+        'Git, GitHub, Bitbucket',
+        'Vite, Webpack',
+        'Linear, Jira'
     ],
 };
 
@@ -34,24 +34,26 @@ export const data = {
             tools: 'Tools',
             languages: 'Languages',
             education: 'Education',
-            trainings: 'Trainings',
             qualities: 'Personal qualities',
             personalProjects: 'Full-Stack Experience',
         },
-        summary: "React Frontend Developer specializing in React and Next.js, building fast, responsive, and accessible web applications. Focused on strong UI/UX, clean and maintainable code, and close collaboration with international, cross-functional teams to deliver high-quality reliable products. Comfortable owning features end-to-end, from architecture decisions to final delivery.",
+        summary: "Senior React Frontend Developer building scalable SaaS applications using React, Next.js and TypeScript. Focused on strong UI/UX, clean and maintainable code. Experienced in frontend architecture, performance optimization, and mentoring developers, with a track record of delivering AI-powered products in international, cross-functional teams. Comfortable owning features end-to-end, from architecture decisions to final delivery.",
         qualities: 'Responsible, persistent, friendly, honest, positive attitude, communicative.',
         workExperience: [
             {
                 date: '2020 Aug. - Present',
                 company: 'Mindnow',
-                position: 'React Frontend Developer',
+                position: 'Senior React Frontend Developer',
                 details: [
-                    'Led frontend development of an AI-powered resume-generation product, from early architecture through production launch.',
-                    'Drove key technical and architectural decisions, and actively influenced which features and improvements made it onto the product roadmap.',
-                    'Worked within a 10-person international engineering team, coordinating with designers and backend developers to deliver features on schedule.',
-                    'Built and shipped features in React and Next.js, including server-side rendering (SSR) that improved page load speed and SEO.',
-                    'Reduced initial bundle size and improved page load time by introducing route-based code splitting, lazy loading, and bundle analysis to eliminate unnecessary dependencies.',
-                    'Implemented responsive design across multiple projects, ensuring a consistent experience across devices.',
+                    'Led frontend architecture end-to-end for an AI-powered career platform, from concept through production launch, driving key technical decisions that shaped the product roadmap.',
+                    'Rearchitected the API integration layer with shared abstractions and Tanstack Query, cutting frontend boilerplate by ~80% and speeding up new feature delivery by ~30%.',
+                    'Delivered production-ready, responsive features in React, Next.js, and TypeScript, including SSR that boosted SEO performance by 60% and raised the Lighthouse performance score from ~60 to 90+.',
+                    'Mentored mid-level frontend developers through code reviews, technical guidance, and internal tech talks, helping cut the team\'s production bug rate by roughly 20%.',
+                    'Cut page load times by ~40% and improved maintainability through code splitting, lazy loading, bundle analysis, and dependency cleanup.',
+                    'Built and maintained a multilingual platform supporting 12 languages, contributing to an estimated 25% growth in the international user base.',
+                    'Owned frontend releases end-to-end and integrated Sentry for error monitoring, cutting the time to detect and resolve production issues.',
+                    'Worked in Scrum — took part in sprint planning and feature estimation, and reviewed pull requests to keep code quality and delivery predictable.',
+                    'Collaborated closely with Product Managers, designers, and backend engineers across a 10-person international team to ship complex features while keeping release cycles fast.',
                 ]
             },
             {
@@ -59,9 +61,9 @@ export const data = {
                 company: 'Es.bet / KitCode / Gorilla (Kyiv)',
                 position: 'React Frontend Developer',
                 details: [
-                    'Built and maintained scalable React applications for gaming platforms, integrating REST APIs and managing state with MobX.',
-                    'Redesigned key UI flows for responsiveness, improving usability and user engagement across devices.',
-                    'Partnered with design and backend teams to ship new features and optimize application performance.',
+                    'Built scalable React applications for gaming platforms end-to-end, integrating REST APIs and managing state with MobX.',
+                    'Redesigned key UI flows, boosting usability and engagement across devices.',
+                    'Shipped new features and optimized application performance, working closely with design and backend.',
                 ]
             },
             {
@@ -69,43 +71,9 @@ export const data = {
                 company: 'Dreamscape Networks / Siteplus (Kyiv)',
                 position: 'Frontend Developer',
                 details: [
-                    'Helped build a flexible website-builder platform from the ground up at an early-stage startup.',
-                    'Designed and built a library of website templates and mockups, translating designs into pixel-perfect UI.',
-                    'Proposed and implemented feature and usability improvements that helped shape the product roadmap.',
-                ]
-            },
-            {
-                date: '2014 Apr. - 2015 Sep.',
-                company: 'Rexsoft (Khmelnitsky)',
-                position: 'Frontend Developer',
-                details: [
-                    'Developed adaptive layouts and integrated plugins across a range of web projects using JavaScript and jQuery.',
-                    'Worked with designers and backend developers to deliver seamless functionality and design integration.',
-                ]
-            },
-            {
-                date: '2011 Apr. - 2014 Apr.',
-                company: 'Freelance',
-                position: 'Frontend Developer',
-                details: [
-                    'Delivered custom frontend solutions for a variety of independent clients.'
-                ]
-            },
-            {
-                date: '2010 Apr. - 2011 Feb.',
-                company: 'WebPC (Kharkiv)',
-                position: 'Frontend Developer',
-                details: [
-                    'Developed responsive web pages with HTML/CSS and JavaScript on CMS platforms including OpenCart, Drupal, PrestaShop, and ModX.',
-                    'Managed projects directly with clients — gathering requirements, coordinating timelines, and providing ongoing support.',
-                ]
-            },
-            {
-                date: '2009 Oct. - 2010 Feb.',
-                company: 'W3 Ukraine (Kharkiv)',
-                position: 'HTML/CSS Coder',
-                details: [
-                    'Built cross-browser compatible email templates and web pages, gaining foundational HTML/CSS and responsive design experience.'
+                    'Built a flexible website-builder platform from the ground up at an early-stage startup.',
+                    'Created a full library of website templates, translating designs into pixel-perfect UI.',
+                    'Proposed and shipped feature improvements that shaped the product roadmap.',
                 ]
             },
         ],
@@ -119,7 +87,7 @@ export const data = {
         },
         ability: {
             ...ability,
-            languages: ['Ukrainian', 'Russian', 'English (Intermediate)'],
+            languages: ['Ukrainian', 'Russian', 'English (Professional working proficiency)'],
         },
         education: {
             university: {
@@ -128,16 +96,6 @@ export const data = {
                 department: 'Department of Artificial Intelligence',
                 branch: 'Engineer of Computer-Aided Systems of Production Control',
             },
-            trainings: [
-                {
-                    date: '2008 Oct. - 2008 Dec.',
-                    info: 'Validio Seo Training',
-                },
-                {
-                    date: '2009 Sep. - 2009 Dec.',
-                    info: 'W3 Ukraine HTML/CSS markup training',
-                },
-            ],
         },
     },
     ru: {
@@ -152,25 +110,27 @@ export const data = {
             tools: 'Инструменты',
             languages: 'Языки',
             education: 'Образование',
-            trainings: 'Курсы',
             qualities: 'Персональные качества',
             personalProjects: 'Опыт Full-Stack разработки',
         },
-        summary: 'React Frontend Developer. Специализируюсь на React и Next.js, создаю быстрые, адаптивные и доступные веб-приложения. Уделяю внимание качественному UI/UX, чистому и поддерживаемому коду, а также тесному сотрудничеству в международных кросс-функциональных командах для создания качественных и надёжных продуктов. Легко беру на себя полную ответственность за реализацию функциональности — от архитектурных решений до финального результата.',
+        summary: 'Senior React Frontend Developer, создаю масштабируемые SaaS-приложения на React, Next.js и TypeScript. Уделяю внимание сильному UI/UX и чистому, поддерживаемому коду. Есть опыт в архитектуре фронтенда, оптимизации производительности и менторстве разработчиков, а также в разработке AI-продуктов в международных кросс-функциональных командах. Делаю и отвечаю за функционал от начала до конца — от архитектурных решений до релиза',
         qualities:
-            'Ответственный, настойчив, быстро обучаем, дружелюбный, честный, позитивно настроен, коммуникабельный.',
+            'Ответственный, настойчивый, быстро учусь, дружелюбный, честный, позитивный, коммуникабельный.',
         workExperience: [
             {
                 date: '2020 Aug. - Сегодня',
                 company: 'Mindnow',
-                position: 'React Frontend Developer',
+                position: 'Senior React Frontend Developer',
                 details: [
-                    'Возглавлял frontend-разработку AI-продукта для генерации резюме — от ранней архитектуры до запуска в продакшн.',
-                    'Принимал ключевые технические и архитектурные решения, активно влиял на то, какие функции и улучшения попадали в roadmap продукта.',
-                    'Работал в международной команде из 10 разработчиков, тесно взаимодействуя с дизайнерами и backend-разработчиками, чтобы сдавать функциональность в срок.',
-                    'Разрабатывал и выпускал новый функционал на React и Next.js, включая серверный рендеринг (SSR), что ускорило загрузку страниц и улучшило SEO.',
-                    'Сократил размер начального бандла и ускорил загрузку страниц с помощью code splitting по маршрутам, lazy loading и анализа бандла, избавившись от лишних зависимостей.',
-                    'Внедрял адаптивный дизайн в различных проектах, чтобы приложение одинаково хорошо выглядело и работало на всех устройствах.',
+                    'Отвечал за фронтенд-архитектуру AI-платформы для построения карьеры — провёл продукт от концепции до продакшна и принимал ключевые технические решения, влиявшие на развитие продукта.',
+                    'Переписал слой работы с API на общих абстракциях и Tanstack Query: код фронтенда сократился примерно на 80%, а новые фичи стали выходить быстрее — примерно на 30%.',
+                    'Выпускал готовый к релизу адаптивный функционал на React, Next.js и TypeScript, внедрил серверный рендеринг (SSR) — SEO-показатели выросли на 60%, а оценка производительности в Lighthouse поднялась примерно с 60 до 90+.',
+                    'Менторил мидл-разработчиков — код-ревью, разборы задач, внутренние технические доклады; это помогло снизить количество багов в проде от команды примерно на 20%.',
+                    'Ускорил загрузку страниц примерно на 40% и упростил поддержку кода: code splitting, lazy loading, анализ бандла, чистка лишних зависимостей.',
+                    'Развивал мультиязычную платформу — поддержка 12 языков помогла нарастить международную аудиторию примерно на 25%.',
+                    'Отвечал за релизы фронтенда от начала до конца и внедрил Sentry для мониторинга ошибок — проблемы в проде стали находить и устранять быстрее.',
+                    'Работал по Scrum: участвовал в спринт-планировании и оценке задач, ревьюил pull request\'ы — это держало качество кода и сроки поставки предсказуемыми.',
+                    'Тесно сотрудничал с продукт-менеджерами, дизайнерами и бэкенд-инженерами в международной команде из 10 человек, помогая доставлять сложные фичи в быстром темпе.',
                 ]
             },
             {
@@ -178,9 +138,9 @@ export const data = {
                 company: 'Es.bet / KitCode / Gorilla (Киев)',
                 position: 'React Frontend Developer',
                 details: [
-                    'Разрабатывал и поддерживал масштабируемые React-приложения для игровых платформ, интегрируя REST API и управляя состоянием через MobX.',
-                    'Улучшил адаптивность ключевых экранов приложения, что повысило удобство использования и вовлечённость пользователей на всех устройствах.',
-                    'Сотрудничал с командами дизайна и backend-разработки для внедрения новых функций и оптимизации производительности приложения.',
+                    'Строил с нуля масштабируемые React-приложения для игровых платформ, работал с REST API и держал состояние на MobX.',
+                    'Переработал ключевые пользовательские сценарии под адаптивность — выросли удобство и вовлечённость.',
+                    'Выпускал новые фичи и занимался оптимизацией производительности в связке с дизайнерами и backend-командой.',
                 ]
             },
             {
@@ -188,57 +148,23 @@ export const data = {
                 company: 'Dreamscape Networks / Siteplus (Киев)',
                 position: 'Frontend Developer',
                 details: [
-                    'Работал в стартапе на ранней стадии, участвуя в создании гибкой платформы-конструктора веб-сайтов с нуля.',
-                    'Проектировал и создавал библиотеку шаблонов и макетов сайтов, реализуя дизайн в pixel-perfect UI.',
-                    'Предлагал и внедрял улучшения функциональности и удобства использования, повлиявшие на roadmap продукта.',
-                ]
-            },
-            {
-                date: 'Апрель 2014 - Сентябрь 2015',
-                company: 'Rexsoft (Хмельницкий)',
-                position: 'Frontend Developer',
-                details: [
-                    'Разрабатывал адаптивные макеты и интегрировал плагины в разных веб-проектах на JavaScript и jQuery.',
-                    'Сотрудничал с дизайнерами и backend-разработчиками для обеспечения слаженной интеграции функциональности и дизайна.',
-                ]
-            },
-            {
-                date: '2011 Апрель - 2014 Апрель',
-                company: 'Freelance',
-                position: 'Frontend Developer',
-                details: [
-                    'Разрабатывал индивидуальные frontend-решения для различных клиентов.'
-                ]
-            },
-            {
-                date: '2010 Апрель - 2011 Февраль',
-                company: 'WebPC (Харьков)',
-                position: 'Frontend Developer',
-                details: [
-                    'Разрабатывал адаптивные веб-страницы с использованием HTML/CSS и JavaScript на CMS-платформах, включая OpenCart, Drupal, PrestaShop и ModX.',
-                    'Управлял проектами напрямую с клиентами — сбор требований, координация сроков и постоянная поддержка.',
-                ]
-            },
-            {
-                date: '2009 Октябрь - 2010 Февраль',
-                company: 'W3 Ukraine (Харьков)',
-                position: 'HTML/CSS Coder',
-                details: [
-                    'Создавал кроссбраузерные email-шаблоны и веб-страницы, получив базовый опыт в HTML/CSS и адаптивном дизайне.'
+                    'С нуля участвовал в создании гибкого конструктора сайтов на ранней стадии стартапа.',
+                    'Собрал библиотеку шаблонов и макетов, переводя дизайн в pixel-perfect вёрстку.',
+                    'Предлагал улучшения по функциональности и удобству — часть из них легла в roadmap продукта.',
                 ]
             },
         ],
         personalProject: {
             title: 'Полноценное веб-приложение — личный проект',
             details: [
-                'Разработал full-stack веб-приложение с нуля — от React-фронтенда до полноценного бекенда на Node.js, Express и MongoDB.',
-                'Спроектировал и реализовал бекенд-логику: REST API, модели базы данных и полноценную систему аутентификации — регистрацию, вход и восстановление/сброс пароля.',
-                'Вёл проект от начала до конца — от архитектуры бекенда и проектирования API до интеграции с фронтендом.',
+                'Сделал full-stack веб-приложение с нуля: React на фронте, Node.js/Express/MongoDB на бэке.',
+                'Спроектировал бэкенд-логику — REST API, модели данных и полноценную аутентификацию: регистрацию, вход, восстановление пароля.',
+                'Вёл проект целиком, от архитектуры бэкенда и проектирования API до интеграции с фронтендом.',
             ]
         },
         ability: {
             ...ability,
-            languages: ['Украинский', 'Русский', 'Английский (Intermediate)'],
+            languages: ['Украинский', 'Русский', 'Английский (Professional working proficiency)'],
         },
         education: {
             university: {
@@ -247,16 +173,6 @@ export const data = {
                 department: 'Интеллектуальные системы принятия решений',
                 branch: 'Специалист по автоматизированным системам управления производством',
             },
-            trainings: [
-                {
-                    date: 'Октябрь 2008 - Декабрь 2008',
-                    info: 'Validio Seo Training',
-                },
-                {
-                    date: '2009 Сентябрь - 2009 Декабрь',
-                    info: 'W3 Ukraine - Курсы HTML/CSS',
-                },
-            ],
         },
     },
     ua: {
@@ -271,25 +187,27 @@ export const data = {
             tools: 'Інструменти',
             languages: 'Мови',
             education: 'Освіта',
-            trainings: 'Курси',
             qualities: 'Особисті якості',
             personalProjects: 'Досвід Full-Stack розробки',
         },
-        summary: 'React Frontend Developer. Спеціалізуюся на React та Next.js, створюю швидкі, адаптивні та доступні вебзастосунки. Приділяю увагу якісному UI/UX, чистому коду, який легко підтримувати, та тісній співпраці в міжнародних міжфункціональних командах для створення якісних і надійних продуктів. Легко беру на себе повну відповідальність за реалізацію функціоналу — від архітектурних рішень до фінального результату.',
+        summary: 'Senior React Frontend Developer, створюю масштабовані SaaS-застосунки на React, Next.js та TypeScript. Приділяю увагу якісному UI/UX та чистому коду, який легко підтримувати. Маю досвід в архітектурі фронтенду, оптимізації продуктивності та менторстві розробників, а також у створенні AI-продуктів у міжнародних крос-функціональних командах. Роблю та відповідаю за функціонал від початку до кінця — від архітектурних рішень до релізу.',
         qualities:
-            'Відповідальний, наполегливий, швидко навчаюсь, дружелюбний, чесний, позитивний, комунікабельний.',
+            'Відповідальний, наполегливий, швидко навчаюсь, доброзичливий, чесний, позитивний, комунікабельний.',
         workExperience: [
             {
                 date: 'Серпень 2020 - Сьогодні',
                 company: 'Mindnow',
-                position: 'React Frontend Developer',
+                position: 'Senior React Frontend Developer',
                 details: [
-                    'Очолював frontend-розробку AI-продукту для генерації резюме — від ранньої архітектури до запуску в продакшн.',
-                    'Ухвалював ключові технічні та архітектурні рішення, активно впливав на те, які функції та покращення потрапляли в roadmap продукту.',
-                    'Працював у міжнародній команді з 10 розробників, тісно взаємодіючи з дизайнерами та backend-розробниками, щоб здавати функціонал вчасно.',
-                    'Розробляв і випускав новий функціонал на React та Next.js, зокрема серверний рендеринг (SSR), що прискорило завантаження сторінок і покращило SEO.',
-                    'Зменшив розмір початкового бандлу та прискорив завантаження сторінок за допомогою code splitting за маршрутами, lazy loading та аналізу бандлу, позбувшись зайвих залежностей.',
-                    'Впроваджував адаптивний дизайн у різних проєктах, щоб застосунок однаково добре виглядав і працював на всіх пристроях.',
+                    'Відповідав за фронтенд-архітектуру AI-платформи для побудови кар\'єри — провів продукт від концепції до продакшену та ухвалював ключові технічні рішення, які впливали на розвиток продукту.',
+                    'Переписав шар роботи з API на спільних абстракціях і Tanstack Query: код фронтенду скоротився приблизно на 80%, а нові фічі стали виходити швидше — приблизно на 30%.',
+                    'Випускав готовий до релізу адаптивний функціонал на React, Next.js і TypeScript, впровадив серверний рендеринг (SSR) — зросли SEO показники на 60%, а оцінка продуктивності в Lighthouse піднялась приблизно з 60 до 90+.',
+                    'Менторив мідл-розробників — код-рев\'ю, розбір задач, внутрішні технічні доповіді; це допомогло знизити кількість багів у проді від команди приблизно на 20%.',
+                    'Пришвидшив завантаження сторінок приблизно на 40% і спростив підтримку коду: code splitting, lazy loading, аналіз бандлу, чистка зайвих залежностей.',
+                    'Розвивав мультимовну платформу — підтримка 12 мов допомогла наростити міжнародну аудиторію приблизно на 25%.',
+                    'Відповідав за релізи фронтенду від початку до кінця та впровадив Sentry для моніторингу помилок — проблеми в проді стали знаходити й усувати швидше.',
+                    'Працював за Scrum: брав участь у спринт-плануванні та оцінці задач, рев\'юїв pull request\'и — це тримало якість коду і терміни постачання передбачуваними.',
+                    'Тісно співпрацював з продукт-менеджерами, дизайнерами та бекенд-інженерами в міжнародній команді з 10 людей, допомагаючи доставляти складні фічі у швидкому темпі.',
                 ]
             },
             {
@@ -297,9 +215,9 @@ export const data = {
                 company: 'Es.bet / KitCode / Gorilla (Київ)',
                 position: 'React Frontend Developer',
                 details: [
-                    'Розробляв і підтримував масштабовані React-застосунки для ігрових платформ, інтегруючи REST API та керуючи станом через MobX.',
-                    'Покращив адаптивність ключових екранів застосунку, що підвищило зручність використання та залученість користувачів на всіх пристроях.',
-                    'Співпрацював із командами дизайну та backend-розробки для впровадження нових функцій та оптимізації продуктивності застосунку.',
+                    'Будував з нуля масштабовані React-застосунки для ігрових платформ, працював з REST API, керував станом через MobX.',
+                    'Переробив ключові користувацькі сценарії під адаптивність — зросли зручність і залученість.',
+                    'Випускав нові фічі та займався оптимізацією продуктивності в тандемі з дизайнерами й backend-командою.',
                 ]
             },
             {
@@ -307,57 +225,23 @@ export const data = {
                 company: 'Dreamscape Networks / Siteplus (Київ)',
                 position: 'Frontend Developer',
                 details: [
-                    'Працював у стартапі на ранній стадії, беручи участь у створенні гнучкої платформи-конструктора вебсайтів з нуля.',
-                    'Проєктував і створював бібліотеку шаблонів та макетів сайтів, реалізовуючи дизайн у pixel-perfect UI.',
-                    'Пропонував і впроваджував покращення функціональності та зручності використання, що вплинули на roadmap продукту.',
-                ]
-            },
-            {
-                date: 'Квітень 2014 - Вересень 2015',
-                company: 'Rexsoft (Хмельницький)',
-                position: 'Frontend Developer',
-                details: [
-                    'Розробляв адаптивні макети та інтегрував плагіни в різних вебпроєктах на JavaScript і jQuery.',
-                    'Співпрацював із дизайнерами та backend-розробниками для забезпечення злагодженої інтеграції функціональності та дизайну.',
-                ]
-            },
-            {
-                date: 'Квітень 2011 - Квітень 2014',
-                company: 'Freelance',
-                position: 'Frontend Developer',
-                details: [
-                    'Розробляв індивідуальні frontend-рішення для різних клієнтів.'
-                ]
-            },
-            {
-                date: 'Квітень 2010 - Лютий 2011',
-                company: 'WebPC (Харків)',
-                position: 'Frontend Developer',
-                details: [
-                    'Розробляв адаптивні вебсторінки з використанням HTML/CSS та JavaScript на CMS-платформах, включно з OpenCart, Drupal, PrestaShop та ModX.',
-                    'Керував проєктами безпосередньо з клієнтами — збір вимог, координація термінів і постійна підтримка.',
-                ]
-            },
-            {
-                date: 'Жовтень 2009 - Лютий 2010',
-                company: 'W3 Ukraine (Харків)',
-                position: 'HTML/CSS Coder',
-                details: [
-                    'Створював кросбраузерні email-шаблони та вебсторінки, здобувши базовий досвід у HTML/CSS та адаптивному дизайні.'
+                    'З нуля брав участь у створенні гнучкого конструктора сайтів на ранній стадії стартапу.',
+                    'Зібрав бібліотеку шаблонів і макетів, перетворюючи дизайн на pixel-perfect верстку.',
+                    'Пропонував покращення функціональності та зручності — частина з них лягла в roadmap продукту.',
                 ]
             },
         ],
         personalProject: {
             title: 'Повноцінний вебзастосунок — особистий проєкт',
             details: [
-                'Розробив full-stack вебзастосунок з нуля — від React-фронтенду до повноцінного бекенду на Node.js, Express та MongoDB.',
-                'Спроєктував і реалізував бекенд-логіку: REST API, моделі бази даних та повноцінну систему автентифікації — реєстрацію, вхід та відновлення/скидання паролю.',
-                'Вів проєкт від початку до кінця — від архітектури бекенду і проєктування API до інтеграції з фронтендом.',
+                'Зробив full-stack вебзастосунок з нуля: React на фронті, Node.js/Express/MongoDB на беку.',
+                'Спроєктував бекенд-логіку — REST API, моделі даних і повноцінну автентифікацію: реєстрацію, вхід, відновлення пароля.',
+                'Вів проєкт цілком, від архітектури бекенду й проєктування API до інтеграції з фронтендом.',
             ]
         },
         ability: {
             ...ability,
-            languages: ['Українська', 'Російська', 'Англійська (Intermediate)'],
+            languages: ['Українська', 'Російська', 'Англійська (Professional working proficiency)'],
         },
         education: {
             university: {
@@ -366,16 +250,6 @@ export const data = {
                 department: 'Інтелектуальні системи прийняття рішень',
                 branch: 'Спеціаліст з автоматизованих систем управління виробництвом',
             },
-            trainings: [
-                {
-                    date: 'Жовтень 2008 - Грудень 2008',
-                    info: 'Validio Seo Training',
-                },
-                {
-                    date: 'Вересень 2009 - Грудень 2009',
-                    info: 'W3 Ukraine - Курси HTML/CSS',
-                },
-            ],
         },
     }
 };

@@ -91,6 +91,10 @@ h3 {
 }
 
 .skill-box {
-    width: 33.3%;
+    width: 50%;
     padding: 0 15px;
+}
+
+.skill-box-inner:not(:last-child){
+    margin-bottom: 40px;
 }

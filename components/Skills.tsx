@@ -23,12 +23,14 @@ export const Skills: React.FC<SkillsProps> = ({ titles, data }) => {
                     <ul>{getItems(skills)}</ul>
                 </div>
                 <div className="skill-box">
+                <div className="skill-box-inner">
                     <h2>{titles.tools}:</h2>
                     <ul>{getItems(tools)}</ul>
                 </div>
-                <div className="skill-box">
+                <div className="skill-box-inner">
                     <h2>{titles.languages}:</h2>
                     <ul>{getItems(languages)}</ul>
+                </div>
                 </div>
             </div>
         </div>
